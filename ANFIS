@@ -10,7 +10,7 @@ end
 p = 0;
 for k = 1:19
     for l = 1:19
-        z(l,k) = cos(x(1)/57.3248)*cos(y(k)/57.32481);
+        z(l,k) = cos(x(l)/57.3248)*cos(y(k)/57.32481);
         p = p+1
         xp(p) = x(k);    % Susunlah data pelatihan x
         yp(p) = y(l);    % Susunlah data pelatihan y
